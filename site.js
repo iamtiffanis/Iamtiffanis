@@ -1,7 +1,7 @@
 // Paste your links here once. Every button on the site updates automatically.
 // Leave a link empty ("") and its buttons fall back to your Instagram.
 const LINKS = {
-  forecast: "https://tally.so/r/gbaVJ4",     // Ful-Figure Forecast intake form link (Google Form)
+  forecast: "https://tally.so/r/gbaVJ4",     // Ful-Figure Forecast intake form (Tally)
   eft: "https://youtu.be/ZEmgSBuJ4Zs",  // free EFT tapping video
   booking: "https://calendly.com/mindbodyvibrancy/move-it-forward-call",    // free Move It Forward Call booking link (e.g. Calendly or Cal.com)
   boldMoves: "https://tally.so/r/YjPbJJ",    // Bold Moves payment or booking link (e.g. Stripe payment link)
