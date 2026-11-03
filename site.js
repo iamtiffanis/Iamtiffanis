@@ -5,6 +5,7 @@ const LINKS = {
   boldMoves: "",    // Bold Moves payment or booking link (e.g. Stripe payment link)
   guide: "",        // free guide sign-up link (e.g. your beehiiv subscribe page)
   dbmConsult: "",   // business consultation booking or payment link
+  reiki: "https://pensight.com/x/iamtiffanis/distancewombreiki",  // Reiki + Oracle Reading on Pensight
 };
 const FALLBACK = "https://www.instagram.com/iamtiffanis";
 
