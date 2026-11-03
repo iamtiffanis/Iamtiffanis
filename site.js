@@ -8,6 +8,7 @@ const LINKS = {
   guide: "",        // free guide sign-up link (e.g. your beehiiv subscribe page)
   dbmConsult: "https://tally.so/r/jeZrJ4",   // business consultation booking or payment link
   apply: "https://tally.so/r/OQaZbg",  // Ful-Figure Woman application (Tally)
+  circle: "https://tally.so/r/0Vd040",  // New Moon Reiki Circle sign-up (Tally)
   reiki: "https://tally.so/r/o9EZ5x",  // Reiki + Oracle Reading intake + payment (Tally)
 };
 const FALLBACK = "https://www.instagram.com/iamtiffanis";
