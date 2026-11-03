@@ -4,6 +4,7 @@ const LINKS = {
   booking: "https://calendly.com/mindbodyvibrancy/move-it-forward-call",    // free Move It Forward Call booking link (e.g. Calendly or Cal.com)
   boldMoves: "",    // Bold Moves payment or booking link (e.g. Stripe payment link)
   guide: "",        // free guide sign-up link (e.g. your beehiiv subscribe page)
+  dbmConsult: "",   // business consultation booking or payment link
 };
 const FALLBACK = "https://www.instagram.com/iamtiffanis";
 
