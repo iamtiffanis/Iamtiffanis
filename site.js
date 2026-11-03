@@ -1,6 +1,8 @@
 // Paste your links here once. Every button on the site updates automatically.
 // Leave a link empty ("") and its buttons fall back to your Instagram.
 const LINKS = {
+  forecast: "",     // Ful-Figure Forecast intake form link (Google Form)
+  eft: "https://youtu.be/ZEmgSBuJ4Zs",  // free EFT tapping video
   booking: "https://calendly.com/mindbodyvibrancy/move-it-forward-call",    // free Move It Forward Call booking link (e.g. Calendly or Cal.com)
   boldMoves: "",    // Bold Moves payment or booking link (e.g. Stripe payment link)
   guide: "",        // free guide sign-up link (e.g. your beehiiv subscribe page)
