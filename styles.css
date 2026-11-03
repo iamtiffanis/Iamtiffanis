@@ -122,7 +122,7 @@ p { margin: 0; }
   background: linear-gradient(160deg, var(--band), var(--blush) 60%, var(--sage));
   display: grid; place-items: center; color: var(--muted); font-size: 0.9rem; text-align: center; padding: 20px;
 }
-img.portrait { display: block; width: 100%; max-width: 420px; height: auto; margin-inline: auto; padding: 0; object-fit: cover; object-position: 60% 30%; }
+img.portrait { display: block; width: 100%; max-width: 420px; height: auto; aspect-ratio: auto; border-radius: 24px; margin-inline: auto; padding: 0; object-fit: contain; }
 
 /* Footer */
 .site-footer { background: var(--ink); color: #EDE4F7; }
