@@ -144,3 +144,30 @@ img.portrait { display: block; width: 100%; max-width: 420px; height: auto; aspe
   .btn { transition: none; }
   .btn:hover { transform: none; }
 }
+
+/* Nav: two paths + one call to action */
+.nav { align-items: center; }
+.nav a[aria-current="page"] { color: var(--accent); font-weight: 600; }
+.nav a.nav-cta { background: var(--accent); color: var(--on-accent); padding: 8px 16px; border-radius: 999px; font-weight: 600; }
+.nav a.nav-cta:hover, .nav a.nav-cta:focus-visible { background: #4A2E75; color: var(--on-accent); }
+
+/* Two doors on the homepage */
+.doors { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.door { background: #FFFFFF; border: 1px solid var(--edge); border-radius: 16px; padding: 30px 28px; display: flex; flex-direction: column; gap: 14px; min-width: 0; }
+.door h2 { font-size: clamp(1.7rem, 3.4vw, 2.1rem); }
+.door p { color: var(--muted); }
+.door .checks { color: var(--ink); font-size: 0.98rem; }
+.door .btn { margin-top: auto; align-self: flex-start; }
+.door.energy { border-top: 4px solid var(--gold); }
+.door.biz { border-top: 4px solid var(--accent); }
+
+.crumb { font-size: 0.85rem; color: var(--muted); }
+.crumb a { color: var(--muted); }
+
+/* Footer navigation */
+.footer-nav { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: 0.92rem; }
+.footer-nav a { text-decoration: none; }
+.footer-nav a:hover { text-decoration: underline; }
+.site-footer .wrap { align-items: flex-start; }
+
+.band:not(.lilac) .voice blockquote { background: #FFFFFF; }
